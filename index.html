@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Welcome !</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Chinmay Datt</h1>
+        <p>
+          Passionate individual on a mission to craft <br />immersive UI/UX
+          through front-end development.
+        </p>
+        <br />
+        <p>
+          I'm a Trainee Intern @ Acciojob, where <br />I'm learning MERN Stack
+          to create beautiful & functional websites. My current Tech skills
+          include Java, DSA, HTML, CSS, JavaScript, and React JS
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/Datta-070"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/datta0770/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://medium.com/@datta7"><i class="bx bxl-medium"></i></a>
+          <a href="https://www.instagram.com/slayer_datta/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+
+        <button
+          class="btn btn-success"
+          onclick=" window.open('https://drive.google.com/file/d/13ONVU3ebQDnRREZk2wiDyxD1YfkL5G9P/view?usp=drive_link','_blank')"
+        >
+          Download My Resume
+        </button>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-book"></i>
+            <h3>Vivid Reader</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-dumbbell"></i>
+            <h3>Fitness Freak</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-news"></i>
+            <h3>Geo-politics</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="Profile.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>
+          Hi there, welcome to my Portfolio Page! I'm Chinmay Datt D, a
+          passionate web developer who enjoys learning new technologies and
+          solving problems with code!
+        </h3>
+        <p>
+          This portfolio consists of my personal data and technical skills.
+          Swipe down for Projects and Tech skills
+        </p>
+        <h3 class="main-box">Education</h3>
+        <div class="education-box">
+          <p class="education">SSLC- 82%</p>
+        </div>
+        <div class="education-box">
+          <p class="education">PUC- 72%</p>
+        </div>
+        <div class="education-box">
+          <p class="education">B.E in ECE- 7.2 CGPA</p>
+        </div>
+        <p></p>
+        <button
+          class="btn btn-success"
+          onclick=" window.open('https://drive.google.com/drive/folders/1w5DHll8pia_RzJ2ImQJUenPL-LXo49KV?usp=drive_link','_blank')"
+        >
+          Read More
+        </button>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Dev Skills</h3>
+          <p>
+            HTML, CSS, Bootstrap, JavaScript, ReactJS, Responsive web designs
+          </p>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-terminal"></i>
+          <h3>Coding Skills</h3>
+          <p>Java, Data Structures, Problem Solving, Debugging</p>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-microphone"></i>
+          <h3>Personal Skills</h3>
+          <p>Strong Communicator, Eager to Learn, Taking Responsibility</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio" id="portfolio">
+        <div class="testimonial-container" id="testimonial-container">
+          <h2 class="heading" id="testimonial-wrapper">
+            Deployed <span>Projects</span>
+          </h2>
+
+          <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+              <div class="testimonial-content swiper-wrapper">
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1677155842676-8e13e7053844?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                  />
+                  <h3>Podcast Platform</h3>
+                  <h1>
+                    A podcast app built from scratch using HTML, CSS, and React
+                    JS!
+                  </h1>
+                  <p>
+                    This app offers a seamless experience for users, enabling
+                    new users to sign up and existing ones to log in
+                    effortlessly. With Firebase integration, user authentication
+                    is secure and reliable. What sets this app apart is its
+                    feature allowing users to create their own podcasts,
+                    empowering content creators to share their voice with the
+                    world. Plus, with Toastify, the user experience is enhanced
+                    with sleek notifications. Redux Toolkit for state management
+                    and customized audio player.
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://podcast-platform-rouge.vercel.app/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1671599016130-7882dbff302f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                  />
+                  <h3>Random Quote Generator</h3>
+                  <h1>
+                    A Random Quote Generator! built entirely with HTML, CSS, and
+                    React JS!
+                  </h1>
+                  <p>
+                    Utilizing React's useState and useEffect hooks, this app
+                    fetches inspirational quotes from a public API, providing
+                    users with a fresh dose of motivation with just a click.
+                    With sleek CSS styling and responsive design, it's a
+                    showcase of modern frontend development.
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://react-quote-generator-indol.vercel.app/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1681400641919-d5d03f6c0720?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                  />
+                  <h3>BMI Calculator</h3>
+                  <h1>
+                    A BMI Calculator! built entirely with HTML, CSS, and JS!
+                  </h1>
+                  <p>
+                    Check your BMI and understand the state of your obesity !
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://datta-070.github.io/BMI-Calculator/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1681487814165-018814e29155?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZ2luJTIwcGFnZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                  />
+                  <h3>Sign-in From</h3>
+                  <h1>A Sign-Up form built entirely with HTML, CSS, and JS!</h1>
+                  <p>
+                    Your password is made to enter twice, thereby JavaScript
+                    checks if the 2 passwords match or not. If your passwords
+                    match, you'll get the Greetings message along with your name
+                    else the system will throw an alert saying "passwords don't
+                    match"
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://datta-070.github.io/JS5-Form/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1682125795272-4b81d19ea386?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG1vdmllfGVufDB8fDB8fHww"
+                    alt=""
+                  />
+                  <h3>Movie Database</h3>
+                  <h1>
+                    A movie search app built from scratch using HTML, CSS, and
+                    JS!
+                  </h1>
+                  <p>
+                    A Movie Database built entirely with HTML, CSS, and
+                    JavaScript! With the help of API, information is borrowed
+                    from the source(OMDB), and the data is displayed.
+                    <br />Key Features: Search for any movie with the
+                    appropriate name and get the details like Director, Box
+                    Office, Awards, etc...
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://datta-070.github.io/Movie-Database/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JvY2VyeSUyMHNob3BwaW5nfGVufDB8fDB8fHww"
+                    alt=""
+                  />
+                  <h3>Blinkit Clone</h3>
+                  <h1>
+                    A Blinkit clone built entirely with HTML, CSS, and
+                    Bootstrap!
+                  </h1>
+                  <p>
+                    Building this Blinkit clone was a fantastic learning
+                    experience, allowing <br />me to dive deep into responsive
+                    design and user interface development.
+                    <br />
+                    Ensuring seamless user experience across devices, when the
+                    screen resolution changes, adaptability of design happens on
+                    its own. Leveraging Bootstrap's powerful <br />components
+                    for efficient development. Tailoring the look and feel to
+                    match Blinkit's sleek design.
+                  </p>
+                  <br />
+                  <button
+                    class="btn btn-success"
+                    onclick=" window.open('https://datta-070.github.io/Blinkit-clone/','_blank')"
+                  >
+                  Live Demo
+                  </button>
+                </div>
+              </div>
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial design -->
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <button
+          class="btn btn-success"
+          onclick=" window.open('https://www.linkedin.com/in/datta0770/','_blank')"
+        >
+          LinkedIn
+        </button>
+    </button>
+    <button
+          class="btn btn-success"
+          onclick=" window.open('MAILTO:chinmaydatt003@gmail.com','_blank')"
+        >
+          Gmail
+        </button>
+    </button>
+      <!-- More features are being developed!
+        <form action="contact.php">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    --></section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>End of the page, click the arrow and navigate to the top</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="app.js"></script>
+  </body>
+</html>
