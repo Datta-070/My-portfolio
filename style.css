@@ -929,7 +929,10 @@ span {
         grid-template-columns: 1fr;
     }
     .social-media{
-        padding-bottom: 10rem;
+        padding-bottom: 15rem;
+    }
+    .contact{
+        max-height: fit-content;
     }
 }
 
