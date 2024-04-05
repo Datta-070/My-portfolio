@@ -928,6 +928,9 @@ span {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
+    .social-media{
+        padding-bottom: 10rem;
+    }
 }
 
 @media (max-width: 450px) {
