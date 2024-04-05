@@ -51,7 +51,6 @@ body {
     align-items: center;
     z-index: 100;
     transition: .5s;
-    margin-bottom: 4rem;
 }
 
 .header.sticky {
@@ -834,7 +833,6 @@ span {
 
     .home-content .social-media a {
         margin: 2.5rem .75rem 3rem;
-        margin-top: 15rem;
     }
 
     .home .profession-container {
@@ -902,8 +900,8 @@ span {
     }
 
     .about-img img {
-        width: 30vw;
-        margin-top: 0rem;
+        width: 70vw;
+        margin-top: -2rem;
     }
 
     .testimonial-container .testimonial-wrapper {
@@ -930,23 +928,11 @@ span {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
-    .social-media{
-        padding-top: 10rem;
-    }
-    .profession-container{
-        margin-bottom: 5px;
-    }
 }
 
 @media (max-width: 450px) {
     html {
         font-size: 50%;
-    }
-    .profession{
-        margin-bottom: 10rem;
-    }
-    .social-media{
-        padding-top: 10rem;
     }
 
     #darkMode-icon {
@@ -990,12 +976,6 @@ span {
 @media (max-width: 365px) {
     .about-img img {
         width: 90vw;
-    }
-    .profession-container{
-        margin-bottom: 5px;
-    }
-    .social-media{
-        padding-top: 10rem;
     }
 }
 
