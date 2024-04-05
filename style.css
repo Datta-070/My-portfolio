@@ -991,6 +991,12 @@ span {
     .about-img img {
         width: 90vw;
     }
+    .profession-container{
+        margin-bottom: 5px;
+    }
+    .social-media{
+        padding-top: 10rem;
+    }
 }
 
 @media (max-width: 315px) {
