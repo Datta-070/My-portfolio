@@ -51,6 +51,7 @@ body {
     align-items: center;
     z-index: 100;
     transition: .5s;
+    margin-bottom: 4rem;
 }
 
 .header.sticky {
@@ -585,13 +586,13 @@ span {
 }
 
 .contact {
-    max-height: 10px;
+    max-height: 0px;
     padding-bottom: 1rem;
     text-align: center;
 }
 
 .contact h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 #linkedin{
     column-gap: 60px;
@@ -922,6 +923,9 @@ span {
 @media (max-width: 580px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
+    }
+    .social-media{
+        padding-top: 10rem;
     }
 }
 
