@@ -918,6 +918,12 @@ span {
     .testimonial-box .swiper-button-prev {
         display: none;
     }
+    .social-media{
+        padding-top: 10rem;
+    }
+    .profession-container{
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 580px) {
