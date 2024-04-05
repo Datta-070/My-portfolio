@@ -933,6 +933,9 @@ span {
     html {
         font-size: 50%;
     }
+    .social-media{
+        padding-top: 10rem;
+    }
 
     #darkMode-icon {
         right: 6rem;
