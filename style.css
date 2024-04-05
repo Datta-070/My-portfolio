@@ -927,11 +927,17 @@ span {
     .social-media{
         padding-top: 10rem;
     }
+    .profession-container{
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    .profession-container{
+        margin-bottom: 5px;
     }
     .social-media{
         padding-top: 10rem;
